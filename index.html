@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Skin</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/overview.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+        </script> 
+        <script src = "assets/js/script.js"></script>
+    </head>
+    <body>
+        <!-- Page Wrapper, Consisting of All the Sections -->
+        <div id="header">
+            <div id="header-bg"></div>
+            <div id="logo-img"><img class="logo" src="assets/img/logo.png"></div>
+            <div id="menu">
+                <div class="menu-item">
+                    <form action="index.html">
+                        <input type="submit" class="menu-item-b" id="overview-page" value="Overview">
+                    </form>
+                </div>
+            </div>
+            <div id="menu">
+                <div class="menu-item">
+                    <form action="dry.html">
+                        <input type="submit" class="menu-item-b" id="dry-page" value="Dry">
+                    </form>
+                </div>
+            </div>
+            <div id="menu">
+                <div class="menu-item">
+                    <form action="combination.html">
+                        <input type="submit" class="menu-item-b" id="combo-page" value="Combination">
+                    </form>
+                </div>
+            </div>
+            <div id="menu">
+                <div class="menu-item">
+                    <form action="oily.html">
+                        <input type="submit" class="menu-item-b" id="oily-page" value="Oily">
+                    </form>
+                </div>    
+            </div>
+
+        </div>
+        
+        <div id="questionaire1">
+            <div id="find">FIND OUT YOUR SKIN TYPE:</div>
+            <div class="q">
+                <img class="one-icon" src="assets/img/1-icon.png" width="20">
+                <div id="q1"> Where do you get oily on your face? </div>
+            </div>
+            <div class="answer">
+                <div class="oily-option"><div id="little-to-no-oil"> Little to No Oil</div></div>
+                <div class="oily-option"><div id="T-zone"> Forehead and nose </div></div>
+                <div class="oily-option"><div id="all-over"> entire face </div></div>
+            </div>
+        </div>
+
+        <div id="questionaire2">
+            <div id="find">FIND OUT YOUR SKIN TYPE:</div>
+            <div class="q">
+                <img class="two-icon" src="assets/img/2-icon.png" width="20">
+                <div id="q2"> How many times do you wash your face in a day? </div>
+            </div>
+            <div class="answer">
+                <div class="wash-option"><div id="once-day"> once a day </div></div>
+                <div class="wash-option"><div id="day-night"> morning and night </div></div>
+                <div class="wash-option"><div id="frequent"> Frequent (4+) </div></div>
+            </div>
+            <img id="back-arrow" src="assets/img/back-arrow.png" width="30">
+        </div>
+
+        <div class="result">
+            <div id="find">YOUR SKIN TYPE IS:</div>
+            <div id="more">Click below to find out more!</div>
+            <form action="combination.html">
+                <input type="submit" class="skin-type" id="combination" value="COMBINATION">
+            </form>
+        </div>
+    </body>
+</html>
